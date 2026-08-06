@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Plot Navigation - CaneSense</title>
+</head>
+<body>
+
+    <header>
+        <h1>CaneSense</h1>
+        <p>Smart Irrigation using AI &amp; Sensor Technology</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="farm-info.html">Farm Information</a>
+        <a href="advisory.html">Irrigation Advisory</a>
+        <a href="plot-map.html">Plot Map</a>
+    </nav>
+
+    <hr>
+
+    <section>
+        <h2>Farm Plot Navigation</h2>
+        <p>Click on a plot in the map below to view its details.</p>
+
+        <img src="farm_map.png"
+             alt="Farm Map showing Plot A, Plot B and Plot C"
+             title="Farm Plot Map"
+             width="600"
+             height="600"
+             usemap="#farmmap">
+
+        <map name="farmmap">
+            <!-- Plot A (blue rectangle on the left) -->
+            <area shape="rect"
+                  coords="95,175,265,530"
+                  alt="Plot A"
+                  title="Plot A – Click for details"
+                  href="plot-a.html">
+
+            <!-- Plot B (green rectangle in the center) -->
+            <area shape="rect"
+                  coords="280,175,450,530"
+                  alt="Plot B"
+                  title="Plot B – Click for details"
+                  href="plot-b.html">
+
+            <!-- Plot C (orange rectangle on the right) -->
+            <area shape="rect"
+                  coords="465,175,600,530"
+                  alt="Plot C"
+                  title="Plot C – Click for details"
+                  href="plot-c.html">
+        </map>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>&copy; Made by Arav, Mrudul, Mohammed and Eshika</p>
+    </footer>
+
+</body>
+</html>
